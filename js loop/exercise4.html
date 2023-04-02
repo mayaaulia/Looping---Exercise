@@ -1,0 +1,26 @@
+
+<!-- // 4. Tampilkan sebuah Konfirmasi Pop Up kepada user menggunakan confirm();
+// Berikan teks ‘Apakah anda mau mengulang’ pada box confirm
+// Jika user memilih ‘OK’ maka program akan terus menampilan pop up yang sama
+// Jika user memilih ‘Cancel’ maka program akan menampilkan teks ‘Perulangan sudah dilakukan sebanyak …(jumlah klik OK yang dilakukan user) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data = 0;
+        while(confirm("Continue?")) {
+            data += 1;
+    console.log("Test");
+}
+alert(`Perulangan sudah dilakukan sebanyak ${data}`)
+console.log("Done");
+    </script>
+</body>
+</html>
